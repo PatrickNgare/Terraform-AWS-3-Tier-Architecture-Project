@@ -5,6 +5,7 @@ resource "aws_instance" "Webserver-1" {
 
   instance_type = "t2.micro"
 
+
   tags = {
     Name = "Webserver-1-solavise"
   }
